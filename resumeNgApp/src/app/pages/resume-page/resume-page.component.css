@@ -1,0 +1,17 @@
+.app-sidenav-content{
+  padding: 2em;
+  background-color: #1D2951;
+  display: flex;
+  flex-flow: row wrap;
+  border: 2em;
+  justify-content: center;
+}
+.main-content{
+  width: 100%;
+  background-color: #1F282D;
+}
+
+.left-nav{
+  width: 15%;
+}
+

@@ -1,0 +1,42 @@
+.skill-title{
+  width: 100%;
+}
+
+.mat-chip-list-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+
+.button-container-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+button{
+  border-radius: 2em;
+  padding: 0;
+  font-weight: 600;
+}
+
+.btn{
+  padding-left: .2em;
+  padding-top: .2em;
+}
+
+.button-title{
+  padding: 1em
+}

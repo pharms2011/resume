@@ -1,0 +1,29 @@
+<h2 class="section-title">Skills</h2><br/>
+<div class="button-container-container">
+<div class="button-container">
+  <h3 class="skill-title">Languages</h3>
+  <div  *ngFor="let skill of Languages" class="btn">
+    <button mat-raised-button class="red mat-elevation-z10">
+      <mat-label class="button-title">{{skill.name}}</mat-label>
+    </button>
+  </div>
+  <h3 class="skill-title">Java Frameworks</h3>
+    <div  *ngFor="let skill of JavaFrameworks" class="btn">
+      <button mat-raised-button  class="commit-green mat-elevation-z10">
+        <mat-label class="button-title">{{skill.name}}</mat-label>
+      </button>
+    </div>
+    <h3 class="skill-title">Front End Technologies</h3>
+      <div  *ngFor="let skill of FrontEndTechnologies" class="btn">
+        <button mat-button  class="purple mat-elevation-z10">
+          <mat-label class="button-title">{{skill.name}}</mat-label>
+        </button>
+      </div>
+      <h3 class="skill-title">Back End Technologies</h3>
+        <div  *ngFor="let skill of BackEndTechnologies" class="btn">
+          <button mat-raised-button class="purple mat-elevation-z10">
+            <mat-label class="button-title">{{skill.name}}</mat-label>
+          </button>
+        </div>
+      </div>
+</div>
