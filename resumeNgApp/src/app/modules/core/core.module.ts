@@ -4,6 +4,14 @@ import {MatSidenavModule, MatButtonModule, MatCheckboxModule, MatIconModule, Mat
 import {AppRoutingModule} from '../../app-routing.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MatChipsModule } from '@angular/material/chips';
+import {MglTimelineModule} from 'angular-mgl-timeline';
+import {
+  MatTabsModule,
+  MatInputModule,
+  MatDatepickerModule,
+  MatNativeDateModule,
+  MatRadioModule
+} from '@angular/material';
 
 @NgModule({
   declarations: [],
@@ -14,7 +22,13 @@ import { MatChipsModule } from '@angular/material/chips';
     MatButtonModule,
     MatCheckboxModule,
     BrowserAnimationsModule,
-    MatChipsModule
+    MatChipsModule,
+    MglTimelineModule,
+    MatTabsModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatRadioModule
   ],
   exports: [
     MatSidenavModule,
@@ -24,7 +38,13 @@ import { MatChipsModule } from '@angular/material/chips';
     MatIconModule,
     MatToolbarModule,
     BrowserAnimationsModule,
-    MatChipsModule
+    MatChipsModule,
+    MglTimelineModule,
+    MatTabsModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatRadioModule
   ]
 })
 export class CoreModule { }

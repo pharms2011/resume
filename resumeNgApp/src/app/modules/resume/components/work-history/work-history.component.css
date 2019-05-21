@@ -1,0 +1,84 @@
+.entry{
+  display: flex;
+  flex-flow: row wrap;
+  border: 2em;
+  justify-content: center;
+}
+
+.description-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.judge{
+  background-color: #1D2951;
+  color: white;
+  font-weight: 700;
+}
+
+.judge-content{
+  font-size: .9em;
+  background-color: #1D2951;
+  color: white;
+}
+
+.infosys{
+  color: #3781C2;
+  background-color: white;
+  font-weight: 700;
+}
+
+.infosys-content{
+  color: #3781C2;
+  background-color: white;
+  font-size: .9em;
+}
+
+.revature{
+  background-color: #f26926;
+  color: white;
+  font-weight: 700;
+}
+
+.revature-content{
+  background-color: #f26926;
+  color: white;
+  font-size: .9em;
+}
+
+.strive{
+  background-color: white;
+  color: #f26800;
+  font-weight: 700;
+}
+
+.strive-first-half{
+  color: #003c96;
+  font-weight: 700;
+}
+
+.strive-content{
+  background-color: white;
+  color: #f26800;
+  font-size: .9em;
+}
+
+.chungdahm{
+  background-color: maroon;
+  font-weight: 700;
+}
+
+.chungdahm-content{
+  background-color: maroon;
+  font-size: .9em;
+}
+
+.sub-title{
+  font-weight: 200;
+  font-size: .7em;
+}
+
+.wrapper{
+  padding: 1em;
+}

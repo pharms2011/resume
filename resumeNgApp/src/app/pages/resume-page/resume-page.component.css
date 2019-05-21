@@ -5,13 +5,27 @@
   flex-flow: row wrap;
   border: 2em;
   justify-content: center;
+  height: fit-content;
 }
 .main-content{
   width: 100%;
   background-color: #1F282D;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .left-nav{
-  width: 15%;
+  width: 30%;
 }
 
+.skills-container{
+  width: 80%;
+}
+
+.cert-container{
+  width: 20%;
+}
+
+.education-container{
+  width: 100%;
+}

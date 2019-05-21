@@ -1,12 +1,19 @@
 <mat-drawer-container class="space-blue">
   <mat-drawer class="metal-blue left-nav" mode="side" opened>
-    <app-skills></app-skills>
+    <app-work-history></app-work-history>
   </mat-drawer>
   <div class="app-sidenav-content space-blue">
     <div class="main-content mat-elevation-z10">
       <app-bio></app-bio>
-      <app-work-history></app-work-history>
-      <app-education></app-education>
+      <div class="skills-container">
+        <app-skills></app-skills>
+      </div>
+      <div class="cert-container">
+        <app-certs></app-certs>
+      </div>
+      <div class="education-container">
+        <app-education></app-education>
+      </div>
     </div>
   </div>
 </mat-drawer-container>
