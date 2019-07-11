@@ -1,5 +1,17 @@
+.container{
+  width: 50%;
+}
+
 .icon{
   width: 30%;
   height: 30%;
   padding: 2em;
+}
+
+.title{
+  font-size: 1em;
+}
+
+.sub-title{
+ font-size: .7em;
 }

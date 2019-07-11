@@ -21,7 +21,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
     end: 'May 2015'
   },
   {
-    college: 'Georgia Tech'
+    college: 'Georgia Institute of Technology'
   , major: 'Online Master in Computer Science',
     start: 'August 2019',
     end: 'Current'

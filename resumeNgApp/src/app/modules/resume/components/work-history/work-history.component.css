@@ -74,6 +74,18 @@
   font-size: .7em;
 }
 
+.math-fellows{
+  background-color: white;
+  color: navy;
+  font-weight: 700;
+}
+
+.math-fellows-content{
+  background-color: white;
+  color: navy;
+  font-size: .7em;
+}
+
 .sub-title{
   font-weight: 200;
   font-size: .7em;

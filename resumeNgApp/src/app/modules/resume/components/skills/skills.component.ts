@@ -17,7 +17,9 @@ export class SkillsComponent implements OnInit {
   ngOnInit() {
     this.Languages = [
       {name: 'Java'},
-      {name: 'Python'}
+      {name: 'Python'},
+      {name: 'C#'},
+      {name: 'C'}
     ];
     this.JavaFrameworks = [
       {name: 'Hibernate'},
@@ -26,6 +28,7 @@ export class SkillsComponent implements OnInit {
     ];
     this.FrontEndTechnologies = [
       {name: 'Angular'},
+      {name: 'React'},
       {name: 'CSS'},
       {name: 'HTML'},
       {name: 'JavaScript'},
